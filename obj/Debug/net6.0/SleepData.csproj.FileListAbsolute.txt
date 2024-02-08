@@ -1,0 +1,14 @@
+C:\dotnet\SleepData\bin\Debug\net6.0\SleepData.exe
+C:\dotnet\SleepData\bin\Debug\net6.0\SleepData.deps.json
+C:\dotnet\SleepData\bin\Debug\net6.0\SleepData.runtimeconfig.json
+C:\dotnet\SleepData\bin\Debug\net6.0\SleepData.dll
+C:\dotnet\SleepData\bin\Debug\net6.0\SleepData.pdb
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.AssemblyInfoInputs.cache
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.AssemblyInfo.cs
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.csproj.CoreCompileInputs.cache
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.dll
+C:\dotnet\SleepData\obj\Debug\net6.0\refint\SleepData.dll
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.pdb
+C:\dotnet\SleepData\obj\Debug\net6.0\SleepData.genruntimeconfig.cache
+C:\dotnet\SleepData\obj\Debug\net6.0\ref\SleepData.dll
