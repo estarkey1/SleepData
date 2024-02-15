@@ -32,8 +32,9 @@ if (resp == "1")
             // generate random number of hours slept between 4-12 (inclusive)
             hours[i] = rnd.Next(4, 13);
         }
-        // M/d/yyyy,#|#|#|#|#|#|#
-        sw.WriteLine($"{dataDate:M/d/yyyy},{string.Join("|", hours)}");
+        // MMM/dd/yyyy,#|#|#|#|#|#|#
+        sw.WriteLine($"Week of {dataDate:MMM dd, yyyy}");
+        sw.WriteLine($"{string.Join("| ", hours)}");
         // add 1 week to date
         dataDate = dataDate.AddDays(7);
     }
@@ -41,5 +42,27 @@ if (resp == "1")
 }
 else if (resp == "2")
 {
-    
+    String line;
+    StreamReader sr = new StreamReader("data.txt");
+    line = sr.ReadLine();
+    // Loop through the data text file
+    while (line != null)
+    {
+        // Write the line to the console window
+        Console.WriteLine(line);
+        line = sr.ReadLine();
+
+        // Day markers
+        Console.WriteLine(" Su Mo Tu We Th Fr Sa");
+        Console.WriteLine(" -- -- -- -- -- -- --");
+
+        // Hours
+        Console.WriteLine($" {line}");
+        
+        line = sr.ReadLine();
+        Console.WriteLine();
+    }
+    // Close the file
+    sr.Close();
+    Console.ReadLine();
 }
